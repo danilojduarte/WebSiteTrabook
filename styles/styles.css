@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+:root {
+    /* Colors Principais */
+    --primery-color-orange: #FA7436;
+    --primery-color-black: #222;
+    --secondary-color-blue: #4086F4;
+    --secondary-color-yellow: #FFB60A;
+
+    /* Text Colors */
+    --text-color-1: #222;
+    --text-color-2: #444;
+    --text-color-3: #666;
+
+    /* Icons Colors */
+    --icons-color-1: #999;
+    --icons-color-2: #E5E5E5;
+    --icons-color-3: #fa7a36;
+
+    /* Button */
+    --button-colors: #FA7436;
+
+    /* Background Color */
+    --bg-color-1: #FA7A36;
+    --bg-color-2: #FEFCFB;
+    --bg-color-3: #F7F8FC;
+
+
+
+}
+
+
