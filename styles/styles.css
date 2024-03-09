@@ -99,6 +99,7 @@ header {
     color: var(--bg-color-1);
     background: transparent;
     border: 1px solid var(--bg-color-1);
+    transform: scale(1.1);
 }
 
 
@@ -118,10 +119,26 @@ header {
 .home-text h1 {
     margin: 10px 0px 25px;
     font-size: 2.4rem;
-    line-height: 1;
+    line-height: 1.5;
     font-weight: 700;
     font-family: var(--font-family-volkhov);
 }
 .home-text h1 span {
     color: var(--bg-color-1);
+}
+.home-text p {
+    font-size: .9rem;
+    font-family: var(--font-family-poppins);
+    color: var(--text-color-3);
+    line-height: 28px;
+    margin-bottom: 20px;
+}
+.home-img img {
+    max-width: 110%;
+    width: 840px;
+    height: auto;
+    transition: ease 0.4s;
+}
+.home-img img:hover {
+    transform: scale(1.1);
 }
