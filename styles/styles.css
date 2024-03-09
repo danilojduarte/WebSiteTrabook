@@ -93,9 +93,10 @@ header {
     text-align: center;
     
     font-weight: 500;
-    transition: ease 0.5s;
+    transition: ease 0.8s;
 }
 .btn:hover {
     color: var(--bg-color-1);
     background: transparent;
+    border: 1px solid var(--bg-color-1);
 }
