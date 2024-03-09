@@ -4,6 +4,7 @@
     box-sizing: border-box;
     text-decoration: none;
     scroll-behavior: smooth;
+    list-style: none;
 }
 
 :root {
@@ -35,5 +36,44 @@
     --font-family-poppins : "Poppins", sans-serif;
 }
 
-body {
+body, html {
+    overflow-x: hidden;
+    background: var(--bg-color-2);
+}
+section {
+    padding: 100px 16%;
+}
+
+/* HEADER */
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: transparent;
+    padding: 20px 12%;
+    transition: all 0.3s ease;
+}
+.logo {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+.navlist {
+    display: flex;
+}
+.navlist a {
+    font-size: 16px;
+    color: var(--text-color-1);
+    font-weight: 500;
+    font-family: var(--font-family-poppins);
+    padding: 10px 27px;
+    transition: all 0.3s ease;
+}
+.navlist a:hover {
+    color: var(--icons-color-3);
 }
