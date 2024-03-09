@@ -31,8 +31,9 @@
     --bg-color-2: #FEFCFB;
     --bg-color-3: #F7F8FC;
 
-
-
+    --font-family-volkhov : "Volkhov", serif;
+    --font-family-poppins : "Poppins", sans-serif;
 }
 
-
+body {
+}
