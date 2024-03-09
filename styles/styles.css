@@ -77,3 +77,25 @@ header {
 .navlist a:hover {
     color: var(--icons-color-3);
 }
+.btn {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    display: inline-block;
+    padding: 10px 12px;
+    background: var(--bg-color-1);
+    /* border: 2px solid var(--main-color); */
+    border-radius: 6px;
+    color: var(--bg-color-2);
+    letter-spacing: 1px;
+    font-size: 12px;
+    font-family: var(--font-family-poppins);
+    text-align: center;
+    
+    font-weight: 500;
+    transition: ease 0.5s;
+}
+.btn:hover {
+    color: var(--bg-color-1);
+    background: transparent;
+}
