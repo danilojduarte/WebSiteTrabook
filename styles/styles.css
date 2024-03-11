@@ -151,4 +151,32 @@ header {
     gap: 3rem;
     align-items: center;
     text-align: center;
+    position: relative;
+    
+
+    background: transparent;
+    width: 80%;
+    margin: auto;
+    height: 70px;
+    border-radius: 12px;
+    border: 0.8px solid var(--text-color-3);
 }
+
+@media screen and (min-width: 768px) {
+    .container {
+        flex-direction: row;
+    }
+}
+
+.container div {
+    flex: 1;
+}
+
+.container h4 {
+    margin-bottom: 10px;
+}
+
+.container p {
+    font-size: 14px;
+}
+
